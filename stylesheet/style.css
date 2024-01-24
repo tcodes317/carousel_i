@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.relative{
+    position: relative;
+}
+.inline-flex{
+    overflow-x:hidden;
+    width: 910px;
+    border: 6px solid;
+    display: inline-flex;
+}
+.inline-flex .flex{
+    display: flex;
+}
+.inline-flex .flex .card{
+    width: 300px;
+    height: 300px;
+}
+.inline-flex .flex .card:nth-of-type(1){
+    background-color: orangered
+}
+.inline-flex .flex .card:nth-of-type(2){
+    background-color: gold;
+}
+.inline-flex .flex .card:nth-of-type(3){
+    background-color: indianred;
+}
+.inline-flex .flex .card:nth-of-type(4){
+    background-color: palegreen;
+}
+.inline-flex .flex .card:nth-of-type(5){
+    background-color: peachpuff;
+}
+.btn{
+    position: relative;
+    left: 400px;
+    top: 10px;
+    cursor: pointer;
+}
+.btn #left{
+    padding: 15px;
+    cursor: pointer;
+}
+.btn #right{
+    padding: 15px;
+    cursor: pointer;
+}
